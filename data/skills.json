@@ -1,0 +1,87 @@
+{
+  "_instructions": "Organize your skills into categories. Each category has a name, icon, and list of skills.",
+  "_iconHelp": "Use Font Awesome icons (https://fontawesome.com/icons).",
+  "sectionTitle": "Skills & Technologies",
+  "categories": [
+    {
+      "category": "Frameworks & Libraries",
+      "icon": "fas fa-toolbox",
+      "skills": [
+        "NIST Cybersecurity Framework (CSF)",
+        "NIST SP 800-53",
+        "ISO 27001",
+        "ISO 27017",
+        "HITRUST",
+        "SOC 1",
+        "SOC 2 Type II",
+        "PCI DSS",
+        "HIPAA",
+        "GDPR",
+        "CCPA/CPRA"
+      ]
+    },
+    {
+      "category": "Tools & Platforms",
+      "icon": "fas fa-wrench",
+      "skills": [
+        "ServiceNow",
+        "One Trust",
+        "Zen GRC",
+        "SharePoint",
+        "Confluence",
+        "Microsoft Excel",
+        "Microsoft Word",
+        "Microsoft PowerPoint",
+        "Microsoft Outlook",
+        "Microsoft Copilot",
+        "Enterprise Generative AI"
+      ]
+    },
+    {
+      "category": "Technical Skills",
+      "icon": "fas fa-laptop-code",
+      "skills": [
+        "Cybersecurity Governance, Risk & Compliance (GRC)",
+        "Third-Party Risk Management (TPRM)",
+        "Vendor Risk Assessments",
+        "Security Due Diligence",
+        "Inherent & Residual Risk Assessments",
+        "Risk Analysis",
+        "Control Gap Analysis",
+        "Remediation Tracking",
+        "Risk Register Management",
+        "Security Governance",
+        "Information Security Risk Management",
+        "Policy & Procedure Reviews",
+        "Audit Readiness",
+        "Executive Risk Reporting",
+        "Security Assessments & Controls",
+        "Security Questionnaires (SIG, CAIQ)",
+        "Cloud Security Assessments",
+        "Vulnerability Management",
+        "Identity & Access Management (IAM)",
+        "Single Sign-On (SSO)",
+        "Multi-Factor Authentication (MFA)",
+        "Data Protection & Encryption",
+        "Business Continuity & Disaster Recovery (BCP/DR)",
+        "Incident Response Assessment",
+        "Penetration Test Report Reviews",
+        "Artificial Intelligence & Automation",
+        "AI-Assisted Risk Assessments",
+        "AI-Assisted Security Documentation",
+        "Security Questionnaire Analysis",
+        "Vendor Management",
+        "Cross-Functional Collaboration",
+        "Regulatory Compliance",
+        "Control Validation",
+        "Risk Prioritization",
+        "Stakeholder Management",
+        "Technical Documentation",
+        "Process Improvement",
+        "Analytical Thinking",
+        "Problem Solving",
+        "Business Communication"
+      ]
+    }
+  ]
+}

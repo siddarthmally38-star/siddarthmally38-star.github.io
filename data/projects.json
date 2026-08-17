@@ -1,0 +1,124 @@
+{
+  "_instructions": "Add your projects here. Each project should showcase your work.",
+  "sectionTitle": "Featured Projects",
+  "projects": [
+    {
+      "title": "driftguard-llm",
+      "description": "Practice application demonstrating full-stack development skills",
+      "technologies": [
+        "Python",
+        "Dockerfile"
+      ],
+      "icon": "fas fa-project-diagram",
+      "github": "https://github.com/siddarthmally38-star/driftguard-llm",
+      "demo": "https://github.com/siddarthmally38-star/driftguard-llm"
+    },
+    {
+      "title": "online-payments-fraud-detection-with-machine-learning",
+      "description": "Practice repository for exploring advanced features",
+      "technologies": [
+        "Jupyter Notebook",
+        "HTML",
+        "Python",
+        "CSS"
+      ],
+      "icon": "fas fa-brain",
+      "github": "https://github.com/siddarthmally38-star/online-payments-fraud-detection-with-machine-learning",
+      "demo": "https://github.com/siddarthmally38-star/online-payments-fraud-detection-with-machine-learning"
+    },
+    {
+      "title": "intrusion-detection-prevention-system",
+      "description": "Comprehensive project exploring software design patterns",
+      "technologies": [
+        "Python"
+      ],
+      "icon": "fas fa-project-diagram",
+      "github": "https://github.com/siddarthmally38-star/intrusion-detection-prevention-system",
+      "demo": "https://github.com/siddarthmally38-star/intrusion-detection-prevention-system"
+    },
+    {
+      "title": "siem-dashboard",
+      "description": "Full-featured application built as a learning exercise",
+      "technologies": [
+        "HTML",
+        "JavaScript",
+        "CSS",
+        "Python",
+        "TypeScript"
+      ],
+      "icon": "fas fa-brain",
+      "github": "https://github.com/siddarthmally38-star/siem-dashboard",
+      "demo": "https://github.com/siddarthmally38-star/siem-dashboard"
+    },
+    {
+      "title": "sentinel-triage",
+      "description": "Modern web application demonstrating clean code principles",
+      "technologies": [
+        "Python",
+        "Dockerfile"
+      ],
+      "icon": "fas fa-project-diagram",
+      "github": "https://github.com/siddarthmally38-star/sentinel-triage",
+      "demo": "https://github.com/siddarthmally38-star/sentinel-triage"
+    },
+    {
+      "title": "realtime-fraud-detection",
+      "description": "Interactive application built for continuous learning",
+      "technologies": [
+        "HTML",
+        "Python"
+      ],
+      "icon": "fas fa-brain",
+      "github": "https://github.com/siddarthmally38-star/realtime-fraud-detection",
+      "demo": "https://github.com/siddarthmally38-star/realtime-fraud-detection"
+    },
+    {
+      "title": "network-intrusion-detection-using-machine-learning",
+      "description": "Hands-on learning experience with modern frameworks",
+      "technologies": [
+        "Jupyter Notebook"
+      ],
+      "icon": "fas fa-project-diagram",
+      "github": "https://github.com/siddarthmally38-star/network-intrusion-detection-using-machine-learning",
+      "demo": "https://github.com/siddarthmally38-star/network-intrusion-detection-using-machine-learning"
+    },
+    {
+      "title": "email-phishing-detection",
+      "description": "Full-featured application built as a learning exercise",
+      "technologies": [
+        "Python"
+      ],
+      "icon": "fas fa-project-diagram",
+      "github": "https://github.com/siddarthmally38-star/email-phishing-detection",
+      "demo": "https://github.com/siddarthmally38-star/email-phishing-detection"
+    },
+    {
+      "title": "threathound",
+      "description": "Portfolio project showcasing development capabilities",
+      "technologies": [
+        "Python"
+      ],
+      "icon": "fas fa-project-diagram",
+      "github": "https://github.com/siddarthmally38-star/threathound",
+      "demo": "https://github.com/siddarthmally38-star/threathound"
+    },
+    {
+      "title": "log-analysis-anomaly-detection",
+      "description": "Practice repository for exploring advanced features",
+      "technologies": [
+        "Python"
+      ],
+      "icon": "fas fa-project-diagram",
+      "github": "https://github.com/siddarthmally38-star/log-analysis-anomaly-detection",
+      "demo": "https://github.com/siddarthmally38-star/log-analysis-anomaly-detection"
+    },
+    {
+      "title": "contribution-history",
+      "description": "Generated GitHub contribution history",
+      "technologies": [],
+      "icon": "fas fa-project-diagram",
+      "github": "https://github.com/siddarthmally38-star/contribution-history",
+      "demo": "https://github.com/siddarthmally38-star/contribution-history"
+    }
+  ]
+}
