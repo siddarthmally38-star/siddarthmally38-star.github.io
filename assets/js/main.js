@@ -492,6 +492,10 @@ async function loadProjects() {
 
             projectCard.innerHTML = `
                 <div class="project-image">
+                    ${project.image
+                        ? `<img class="project-cover" src="${project.image}" alt="${project.title} cover"
+                                loading="lazy" onerror="this.remove()">`
+                        : ''}
                     <i class="${project.icon || 'fas fa-code'}"></i>
                 </div>
                 <div class="project-content">

@@ -589,6 +589,7 @@ ul {
 }
 
 .project-image {
+    position: relative;
     width: 100%;
     height: 200px;
     background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
@@ -597,6 +598,25 @@ ul {
     justify-content: center;
     font-size: 4rem;
     color: white;
+    overflow: hidden;
+}
+
+/* Cover art sits over the icon, so the icon shows through if it fails to load. */
+.project-cover {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.project-card:hover .project-cover {
+    transform: scale(1.04);
+}
+
+.project-cover {
+    transition: transform var(--transition-normal);
 }
 
 .project-content {

@@ -11,7 +11,8 @@
       ],
       "icon": "fas fa-project-diagram",
       "github": "https://github.com/siddarthmally38-star/driftguard-llm",
-      "demo": "https://github.com/siddarthmally38-star/driftguard-llm"
+      "demo": "https://github.com/siddarthmally38-star/driftguard-llm",
+      "image": "assets/img/projects/driftguard-llm.svg"
     },
     {
       "title": "online-payments-fraud-detection-with-machine-learning",
@@ -24,7 +25,8 @@
       ],
       "icon": "fas fa-brain",
       "github": "https://github.com/siddarthmally38-star/online-payments-fraud-detection-with-machine-learning",
-      "demo": "https://github.com/siddarthmally38-star/online-payments-fraud-detection-with-machine-learning"
+      "demo": "https://github.com/siddarthmally38-star/online-payments-fraud-detection-with-machine-learning",
+      "image": "assets/img/projects/online-payments-fraud-detection-with-machine-learning.svg"
     },
     {
       "title": "intrusion-detection-prevention-system",
@@ -34,7 +36,8 @@
       ],
       "icon": "fas fa-project-diagram",
       "github": "https://github.com/siddarthmally38-star/intrusion-detection-prevention-system",
-      "demo": "https://github.com/siddarthmally38-star/intrusion-detection-prevention-system"
+      "demo": "https://github.com/siddarthmally38-star/intrusion-detection-prevention-system",
+      "image": "assets/img/projects/intrusion-detection-prevention-system.svg"
     },
     {
       "title": "siem-dashboard",
@@ -48,7 +51,8 @@
       ],
       "icon": "fas fa-brain",
       "github": "https://github.com/siddarthmally38-star/siem-dashboard",
-      "demo": "https://github.com/siddarthmally38-star/siem-dashboard"
+      "demo": "https://github.com/siddarthmally38-star/siem-dashboard",
+      "image": "assets/img/projects/siem-dashboard.svg"
     },
     {
       "title": "sentinel-triage",
@@ -59,7 +63,8 @@
       ],
       "icon": "fas fa-project-diagram",
       "github": "https://github.com/siddarthmally38-star/sentinel-triage",
-      "demo": "https://github.com/siddarthmally38-star/sentinel-triage"
+      "demo": "https://github.com/siddarthmally38-star/sentinel-triage",
+      "image": "assets/img/projects/sentinel-triage.svg"
     },
     {
       "title": "realtime-fraud-detection",
@@ -70,7 +75,8 @@
       ],
       "icon": "fas fa-brain",
       "github": "https://github.com/siddarthmally38-star/realtime-fraud-detection",
-      "demo": "https://github.com/siddarthmally38-star/realtime-fraud-detection"
+      "demo": "https://github.com/siddarthmally38-star/realtime-fraud-detection",
+      "image": "assets/img/projects/realtime-fraud-detection.svg"
     },
     {
       "title": "network-intrusion-detection-using-machine-learning",
@@ -80,7 +86,8 @@
       ],
       "icon": "fas fa-project-diagram",
       "github": "https://github.com/siddarthmally38-star/network-intrusion-detection-using-machine-learning",
-      "demo": "https://github.com/siddarthmally38-star/network-intrusion-detection-using-machine-learning"
+      "demo": "https://github.com/siddarthmally38-star/network-intrusion-detection-using-machine-learning",
+      "image": "assets/img/projects/network-intrusion-detection-using-machine-learning.svg"
     },
     {
       "title": "email-phishing-detection",
@@ -90,7 +97,8 @@
       ],
       "icon": "fas fa-project-diagram",
       "github": "https://github.com/siddarthmally38-star/email-phishing-detection",
-      "demo": "https://github.com/siddarthmally38-star/email-phishing-detection"
+      "demo": "https://github.com/siddarthmally38-star/email-phishing-detection",
+      "image": "assets/img/projects/email-phishing-detection.svg"
     },
     {
       "title": "threathound",
@@ -100,7 +108,8 @@
       ],
       "icon": "fas fa-project-diagram",
       "github": "https://github.com/siddarthmally38-star/threathound",
-      "demo": "https://github.com/siddarthmally38-star/threathound"
+      "demo": "https://github.com/siddarthmally38-star/threathound",
+      "image": "assets/img/projects/threathound.svg"
     },
     {
       "title": "log-analysis-anomaly-detection",
@@ -110,7 +119,8 @@
       ],
       "icon": "fas fa-project-diagram",
       "github": "https://github.com/siddarthmally38-star/log-analysis-anomaly-detection",
-      "demo": "https://github.com/siddarthmally38-star/log-analysis-anomaly-detection"
+      "demo": "https://github.com/siddarthmally38-star/log-analysis-anomaly-detection",
+      "image": "assets/img/projects/log-analysis-anomaly-detection.svg"
     },
     {
       "title": "contribution-history",
@@ -118,7 +128,8 @@
       "technologies": [],
       "icon": "fas fa-project-diagram",
       "github": "https://github.com/siddarthmally38-star/contribution-history",
-      "demo": "https://github.com/siddarthmally38-star/contribution-history"
+      "demo": "https://github.com/siddarthmally38-star/contribution-history",
+      "image": "assets/img/projects/contribution-history.svg"
     }
   ]
 }
