@@ -14,7 +14,9 @@
         "Evaluate vendor security documentation including SOC 1, SOC 2 Type II reports, SIG and CAIQ questionnaires, penetration test reports, vulnerability assessments, BCP/DR plans, IAM controls, SSO, MFA, and encryption practices to determine residual risk and strengthen third-party security posture across critical banking services",
         "Utilize Microsoft Copilot and enterprise-approved generative AI capabilities to assist with reviewing security questionnaires, summarizing SOC reports, and preparing assessment documentation while ensuring all risk decisions, control validations, and remediation recommendations are reviewed and approved through established governance processes",
         "Prepare executive risk dashboards, maintain enterprise risk registers, and report vendor assessment status, remediation progress, and emerging third-party cyber risks across a portfolio of 100+ vendor assessments, enabling leadership to make informed risk-based business decisions"
-      ]
+      ],
+      "logo": "https://www.google.com/s2/favicons?domain=pnc.com&sz=128",
+      "logoFallback": "assets/img/logos/pnc.svg"
     },
     {
       "title": "Cybersecurity GRC / Third-Party Risk Analyst",
@@ -29,7 +31,9 @@
         "Collaborated with vendors and cross-functional teams including Security Engineering, Compliance, Privacy, Procurement, Legal, and Business Owners to resolve identified control deficiencies, contributing to the successful closure of 120+ vendor risk findings while achieving more than 95% remediation within established service level targets",
         "Maintained centralized risk registers, assessment records, policy documentation, compliance evidence, and remediation tracking using ServiceNow, One Trust, Zen GRC, SharePoint, and Confluence, improving audit preparation efficiency by 28% and supporting successful internal and external compliance reviews",
         "Utilized enterprise-approved generative AI capabilities to assist with summarizing SOC reports, reviewing vendor security documentation, and identifying potential control exceptions while ensuring all assessments, risk ratings, and remediation recommendations were validated through established governance and analyst review processes"
-      ]
+      ],
+      "logo": "https://www.google.com/s2/favicons?domain=bausch.com&sz=128",
+      "logoFallback": "assets/img/logos/bausch.svg"
     }
   ]
 }

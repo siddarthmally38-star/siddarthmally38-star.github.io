@@ -56,6 +56,36 @@ async function loadNavigation() {
 // ==========================================================================
 // Load Hero Section
 // ==========================================================================
+// ==========================================================================
+// Company / Institution Logo Helper
+// ==========================================================================
+function logoMarkup(name, logo, fallback) {
+    // Render the bundled badge first so a logo is always visible, then try to
+    // upgrade to the official mark once it has actually loaded.
+    const src = fallback || logo;
+    if (!src) return '';
+    const upgrade = logo && logo !== src ? ` data-logo-upgrade="${logo}"` : '';
+    return `<div class="logo-wrap"><img class="company-logo" src="${src}" alt="${name} logo"${upgrade}></div>`;
+}
+
+function upgradeLogos(root) {
+    if (!root) return;
+    root.querySelectorAll('.company-logo[data-logo-upgrade]').forEach(img => {
+        const url = img.dataset.logoUpgrade;
+        const probe = new Image();
+        let settled = false;
+        const done = () => { settled = true; };
+        const timer = setTimeout(done, 3000);
+        probe.onload = () => {
+            clearTimeout(timer);
+            if (!settled && probe.naturalWidth >= 48) img.src = url;  // ignore low-res favicons
+            done();
+        };
+        probe.onerror = () => { clearTimeout(timer); done(); };
+        probe.src = url;
+    });
+}
+
 async function loadHero() {
     try {
         const response = await fetch('data/hero.json');
@@ -71,6 +101,18 @@ async function loadHero() {
         if (heroName) heroName.textContent = hero.name;
         if (heroTitle) heroTitle.textContent = hero.title;
         if (heroSummary) heroSummary.innerHTML = hero.summary;
+
+        // Profile photo
+        const heroAvatar = document.getElementById('heroAvatar');
+        if (heroAvatar) {
+            if (hero.avatarUrl) {
+                heroAvatar.src = hero.avatarUrl;
+                heroAvatar.alt = hero.avatarAlt || hero.name || '';
+                heroAvatar.onerror = () => heroAvatar.closest('.hero-avatar').remove();
+            } else {
+                heroAvatar.closest('.hero-avatar').remove();
+            }
+        }
 
         // Build highlights
         const highlightsContainer = document.getElementById('heroHighlights');
@@ -347,9 +389,12 @@ async function loadExperience() {
             timelineItem.innerHTML = `
                 <div class="timeline-content">
                     <div class="timeline-header">
-                        <div>
-                            <h3 class="timeline-title">${exp.title}</h3>
-                            <p class="timeline-company">${exp.company}</p>
+                        <div class="timeline-heading">
+                            ${logoMarkup(exp.company, exp.logo, exp.logoFallback)}
+                            <div>
+                                <h3 class="timeline-title">${exp.title}</h3>
+                                <p class="timeline-company">${exp.company}</p>
+                            </div>
                         </div>
                         <span class="timeline-period">${exp.period}</span>
                     </div>
@@ -361,6 +406,8 @@ async function loadExperience() {
             `;
             timeline.appendChild(timelineItem);
         });
+
+        upgradeLogos(timeline);
     } catch (error) {
         console.error('Error loading experience data:', error);
     }
@@ -494,9 +541,12 @@ async function loadEducation() {
 
             eduItem.innerHTML = `
                 <div class="education-header">
-                    <div>
-                        <h3 class="education-degree">${edu.degree}</h3>
-                        <p class="education-school">${edu.school}</p>
+                    <div class="education-heading">
+                        ${logoMarkup(edu.school, edu.logo, edu.logoFallback)}
+                        <div>
+                            <h3 class="education-degree">${edu.degree}</h3>
+                            <p class="education-school">${edu.school}</p>
+                        </div>
                     </div>
                     <span class="education-period">${edu.period}</span>
                 </div>
@@ -504,6 +554,8 @@ async function loadEducation() {
             `;
             educationGrid.appendChild(eduItem);
         });
+
+        upgradeLogos(educationGrid);
 
         // Load certifications
         data.certifications.forEach(cert => {

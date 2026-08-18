@@ -9,7 +9,9 @@
       "institution": "Saint Peter’s University",
       "period": "Dec 2025",
       "details": "",
-      "description": ""
+      "description": "",
+      "logo": "https://www.google.com/s2/favicons?domain=saintpeters.edu&sz=128",
+      "logoFallback": "assets/img/logos/saintpeters.svg"
     },
     {
       "degree": "Bachelors of Science",
@@ -17,7 +19,9 @@
       "institution": "New Jersey Institute of Technology",
       "period": "July 2022",
       "details": "",
-      "description": ""
+      "description": "",
+      "logo": "https://www.google.com/s2/favicons?domain=njit.edu&sz=128",
+      "logoFallback": "assets/img/logos/njit.svg"
     }
   ],
   "certifications": []
