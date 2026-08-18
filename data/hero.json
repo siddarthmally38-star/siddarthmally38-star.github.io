@@ -2,21 +2,21 @@
   "_instructions": "Hero section content - the first thing visitors see on your portfolio.",
   "greeting": "Hi, I'm",
   "name": "Siddarth Mally",
-  "title": "Cybersecurity Analyst",
-  "summary": "Cybersecurity Analyst with 1+ years of experience specializing in NIST Cybersecurity Framework (CSF), NIST SP 800-53, ISO 27001.",
+  "title": "Cybersecurity Analyst | GRC & Third-Party Risk",
+  "summary": "Cybersecurity GRC and Third-Party Risk Management professional with <strong>4+ years</strong> of experience across financial services and healthcare — vendor risk assessments, security due diligence, and remediation tracking aligned to NIST CSF, ISO 27001, SOC 2, PCI DSS, and HIPAA.",
   "avatarUrl": "assets/img/profile.jpg",
   "highlights": [
     {
-      "icon": "fas fa-briefcase",
-      "text": "Professional Experience"
+      "icon": "fas fa-shield-halved",
+      "text": "4+ Years in GRC & TPRM"
     },
     {
-      "icon": "fas fa-code",
-      "text": "Technical Expertise"
+      "icon": "fas fa-clipboard-check",
+      "text": "100+ Vendor Assessments"
     },
     {
-      "icon": "fas fa-users",
-      "text": "Team Collaboration"
+      "icon": "fas fa-certificate",
+      "text": "NIST · ISO 27001 · SOC 2"
     }
   ],
   "cta": {

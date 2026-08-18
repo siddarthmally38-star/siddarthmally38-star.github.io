@@ -4,8 +4,27 @@
   "sectionTitle": "Skills & Technologies",
   "categories": [
     {
-      "category": "Frameworks & Libraries",
-      "icon": "fas fa-toolbox",
+      "category": "Governance, Risk & Compliance (GRC)",
+      "icon": "fas fa-shield-halved",
+      "skills": [
+        "Third-Party Risk Management (TPRM)",
+        "Vendor Risk Assessments",
+        "Security Due Diligence",
+        "Inherent & Residual Risk Assessments",
+        "Risk Analysis",
+        "Control Gap Analysis",
+        "Remediation Tracking",
+        "Risk Register Management",
+        "Security Governance",
+        "Information Security Risk Management",
+        "Policy & Procedure Reviews",
+        "Audit Readiness",
+        "Executive Risk Reporting"
+      ]
+    },
+    {
+      "category": "Security Frameworks & Regulations",
+      "icon": "fas fa-scale-balanced",
       "skills": [
         "NIST Cybersecurity Framework (CSF)",
         "NIST SP 800-53",
@@ -21,41 +40,9 @@
       ]
     },
     {
-      "category": "Tools & Platforms",
-      "icon": "fas fa-wrench",
+      "category": "Security Assessments & Controls",
+      "icon": "fas fa-user-shield",
       "skills": [
-        "ServiceNow",
-        "One Trust",
-        "Zen GRC",
-        "SharePoint",
-        "Confluence",
-        "Microsoft Excel",
-        "Microsoft Word",
-        "Microsoft PowerPoint",
-        "Microsoft Outlook",
-        "Microsoft Copilot",
-        "Enterprise Generative AI"
-      ]
-    },
-    {
-      "category": "Technical Skills",
-      "icon": "fas fa-laptop-code",
-      "skills": [
-        "Cybersecurity Governance, Risk & Compliance (GRC)",
-        "Third-Party Risk Management (TPRM)",
-        "Vendor Risk Assessments",
-        "Security Due Diligence",
-        "Inherent & Residual Risk Assessments",
-        "Risk Analysis",
-        "Control Gap Analysis",
-        "Remediation Tracking",
-        "Risk Register Management",
-        "Security Governance",
-        "Information Security Risk Management",
-        "Policy & Procedure Reviews",
-        "Audit Readiness",
-        "Executive Risk Reporting",
-        "Security Assessments & Controls",
         "Security Questionnaires (SIG, CAIQ)",
         "Cloud Security Assessments",
         "Vulnerability Management",
@@ -65,11 +52,39 @@
         "Data Protection & Encryption",
         "Business Continuity & Disaster Recovery (BCP/DR)",
         "Incident Response Assessment",
-        "Penetration Test Report Reviews",
-        "Artificial Intelligence & Automation",
+        "Penetration Test Report Reviews"
+      ]
+    },
+    {
+      "category": "GRC Tools & Collaboration",
+      "icon": "fas fa-toolbox",
+      "skills": [
+        "ServiceNow",
+        "One Trust",
+        "Zen GRC",
+        "SharePoint",
+        "Confluence",
+        "Microsoft Excel",
+        "Microsoft Word",
+        "Microsoft PowerPoint",
+        "Microsoft Outlook"
+      ]
+    },
+    {
+      "category": "Artificial Intelligence & Automation",
+      "icon": "fas fa-robot",
+      "skills": [
+        "Microsoft Copilot",
+        "Enterprise Generative AI",
         "AI-Assisted Risk Assessments",
         "AI-Assisted Security Documentation",
-        "Security Questionnaire Analysis",
+        "Security Questionnaire Analysis"
+      ]
+    },
+    {
+      "category": "Professional Skills",
+      "icon": "fas fa-users",
+      "skills": [
         "Vendor Management",
         "Cross-Functional Collaboration",
         "Regulatory Compliance",

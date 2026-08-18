@@ -4,24 +4,26 @@
   "certificationsTitle": "Certifications",
   "education": [
     {
-      "degree": "Masters of Science",
+      "degree": "Masters of Science in Cybersecurity",
       "school": "Saint Peter’s University",
       "institution": "Saint Peter’s University",
       "period": "Dec 2025",
       "details": "",
       "description": "",
       "logo": "https://www.google.com/s2/favicons?domain=saintpeters.edu&sz=128",
-      "logoFallback": "assets/img/logos/saintpeters.svg"
+      "logoFallback": "assets/img/logos/saintpeters.svg",
+      "location": "Jersey City, NJ"
     },
     {
-      "degree": "Bachelors of Science",
+      "degree": "Bachelors of Science in Information Science",
       "school": "New Jersey Institute of Technology",
       "institution": "New Jersey Institute of Technology",
       "period": "July 2022",
       "details": "",
       "description": "",
       "logo": "https://www.google.com/s2/favicons?domain=njit.edu&sz=128",
-      "logoFallback": "assets/img/logos/njit.svg"
+      "logoFallback": "assets/img/logos/njit.svg",
+      "location": "Newark, NJ"
     }
   ],
   "certifications": []

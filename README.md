@@ -1,319 +1,122 @@
-# Professional Portfolio Template
+# Siddarth Mally — Portfolio
 
-A modern, responsive portfolio website template that's easy to customize and deploy. Built with vanilla HTML, CSS, and JavaScript - no frameworks required!
+Personal portfolio site for **Siddarth Mally**, Cybersecurity Analyst specialising in Governance, Risk & Compliance (GRC) and Third-Party Risk Management (TPRM).
 
-## ✨ Features
+### 🌐 [siddarthmally.com](https://siddarthmally.com)
 
-- 🎨 **Fully Customizable** - Easy JSON-based configuration
-- 📱 **Responsive Design** - Looks great on all devices
-- 🎯 **SEO Optimized** - Meta tags and semantic HTML
-- 🚀 **Fast Loading** - Lightweight with no heavy frameworks
-- 📊 **Dynamic Content** - All content loaded from JSON files
-- 🎭 **Smooth Animations** - Professional scroll effects
-- 📝 **Well Documented** - Clear instructions and examples
-
-## 🎨 Color Scheme
-
-Current professional palette:
-- **Primary (Teal):** `#154D57`
-- **Secondary (Beige):** `#B7A08B`
-- **Background (Cream):** `#FEFAF7`
-
-Easily customize in `assets/css/styles.css` - just update the CSS variables!
-
-## 📁 Project Structure
-
-```
-portfolio-template/
-├── assets/
-│   ├── css/
-│   │   └── styles.css          # All styling (customizable colors)
-│   └── js/
-│       └── main.js             # Dynamic content loading
-├── data/
-│   ├── profile.json            # Basic info & contact
-│   ├── experience.json         # Work history
-│   ├── skills.json             # Skills by category
-│   ├── projects.json           # Project showcase
-│   └── education.json          # Education & certifications
-├── documents/
-│   └── [Your_Resume.pdf]       # Place resume here
-├── images/
-│   └── projects/               # Project images
-├── index.html                  # Main HTML file
-├── .gitignore                  # Git ignore rules
-└── package.json                # Project metadata
-```
-
-## 🚀 Quick Start
-
-### 1. Copy the Template
-
-```bash
-cp -r portfolio-template my-portfolio
-cd my-portfolio
-```
-
-### 2. Update Your Information
-
-Edit the JSON files in the `data/` folder:
-
-#### `data/profile.json`
-```json
-{
-  "profile": {
-    "name": "Your Name",
-    "title": "Your Title"
-  },
-  "contact": {
-    "email": "you@example.com",
-    "githubUsername": "your-username"
-  }
-}
-```
-
-#### `data/experience.json`
-Add your work experience with achievements and metrics.
-
-#### `data/skills.json`
-Organize your skills into categories with Font Awesome icons.
-
-#### `data/projects.json`
-Showcase your projects with descriptions and links.
-
-#### `data/education.json`
-Add degrees and certifications.
-
-### 3. Add Your Resume
-
-Place your PDF resume in the `documents/` folder and name it `Your_Name_Resume.pdf`
-
-### 4. Customize Colors (Optional)
-
-Edit `assets/css/styles.css` at the top:
-
-```css
-:root {
-    --primary-color: #154D57;      /* Your primary color */
-    --secondary-color: #B7A08B;    /* Your secondary color */
-    --bg-primary: #FEFAF7;         /* Background color */
-}
-```
-
-### 5. Test Locally
-
-```bash
-# Using Python
-python -m http.server 8000
-
-# Using Node.js
-npx http-server
-
-# Using PHP
-php -S localhost:8000
-```
-
-Visit `http://localhost:8000` in your browser.
-
-## 🌐 Deployment Options
-
-### Option 1: GitHub Pages (Recommended)
-
-1. Create a new repository named `your-username.github.io`
-2. Push your code:
-   ```bash
-   git init
-   git add -A
-   git commit -m "Initial commit: My portfolio"
-   git remote add origin https://github.com/your-username/your-username.github.io.git
-   git branch -M main
-   git push -u origin main
-   ```
-3. Enable GitHub Pages in Settings → Pages
-4. Your site will be live at `https://your-username.github.io`
-
-### Option 2: Netlify
-
-1. Go to [netlify.com](https://netlify.com)
-2. Drag and drop your portfolio folder
-3. Done! Your site is live
-
-### Option 3: Vercel
-
-1. Install Vercel CLI: `npm i -g vercel`
-2. Run: `vercel`
-3. Follow the prompts
-
-## 🎨 Customization Guide
-
-### Changing Colors
-
-All colors are defined as CSS variables in `assets/css/styles.css`:
-
-```css
-:root {
-    --primary-color: #your-color;
-    --secondary-color: #your-color;
-    --accent-color: #your-color;
-    --bg-primary: #your-color;
-    /* ... more variables */
-}
-```
-
-### Adding Sections
-
-The template includes:
-- Hero (Introduction)
-- About
-- Experience (Timeline)
-- Skills (Grid)
-- Projects (Cards)
-- Education & Certifications
-- Contact
-
-To add more, edit `index.html` and add corresponding data in JSON files.
-
-### Using Icons
-
-This template uses [Font Awesome](https://fontawesome.com/icons) for icons.
-
-Format: `fas fa-icon-name` (solid) or `fab fa-brand-name` (brands)
-
-Examples:
-- `fas fa-code` - Code icon
-- `fas fa-users` - Users icon
-- `fab fa-github` - GitHub logo
-- `fas fa-chart-line` - Chart icon
-
-### Hero Section Highlights
-
-Edit the hero highlights in `index.html`:
-
-```html
-<div class="hero-highlights">
-    <div class="highlight-item">
-        <i class="fas fa-your-icon"></i>
-        <span>Your Achievement</span>
-    </div>
-</div>
-```
-
-## 📊 Portfolio Sections Explained
-
-### 1. Hero Section
-- Your name and title
-- Professional summary (2-3 sentences)
-- Key achievement badges
-- Call-to-action buttons
-
-### 2. About Section
-- Detailed bio
-- Achievement statistics
-- Professional strengths
-
-### 3. Experience Section
-- Timeline-based layout
-- Company, title, dates
-- Achievements with metrics
-- Technologies used
-
-### 4. Skills Section
-- Organized by categories
-- Icons for visual appeal
-- Hover effects
-
-### 5. Projects Section
-- Project cards with images
-- Tech stack badges
-- Links to GitHub/demos
-
-### 6. Education Section
-- Degrees and institutions
-- Certifications with issuers
-
-### 7. Contact Section
-- Contact information
-- Contact form (demo)
-- Social links
-
-## 🛠️ Updating Content
-
-All content is in JSON files - no HTML editing needed!
-
-1. Edit the appropriate JSON file in `data/`
-2. Refresh your browser
-3. That's it!
-
-## 📝 Best Practices
-
-### Writing Achievements
-✅ **Good:** "Increased user adoption by 18% through UX improvements"
-❌ **Bad:** "Worked on improving user experience"
-
-### Project Descriptions
-- Focus on impact and results
-- Mention technologies used
-- Include metrics when possible
-- Keep it concise (2-3 sentences)
-
-### Skills Organization
-- Group by category (Languages, Frameworks, Tools, etc.)
-- Order by proficiency
-- Don't overwhelm - quality over quantity
-
-## 🎯 SEO Tips
-
-Update in `index.html`:
-
-```html
-<meta name="description" content="Your description">
-<meta name="keywords" content="your, keywords">
-<title>Your Name | Your Title</title>
-```
-
-## 📱 Mobile Optimization
-
-The template is mobile-first and fully responsive:
-- Hamburger menu on small screens
-- Stacked layouts for cards
-- Touch-friendly buttons
-- Optimized images
-
-## 🆘 Troubleshooting
-
-### Content Not Loading
-- Check that JSON files are valid (use JSONLint.com)
-- Ensure file paths are correct
-- Check browser console for errors
-
-### Styles Not Applying
-- Clear browser cache
-- Check CSS file path in `index.html`
-- Verify CSS syntax
-
-### Images Not Showing
-- Use absolute paths for images
-- Check file extensions (.jpg, .png, etc.)
-- Ensure images are in the correct folder
-
-## 🤝 Contributing
-
-Found a bug or want to improve the template? Contributions are welcome!
-
-## 📄 License
-
-MIT License - Free to use for personal and commercial projects.
-
-## 💡 Credits
-
-Built with:
-- HTML5 & CSS3
-- Vanilla JavaScript
-- Font Awesome Icons
-- Lots of ☕ and 💻
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Siddarth_Mally-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/siddarth-mally-451565242/)
+[![GitHub](https://img.shields.io/badge/GitHub-siddarthmally38--star-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/siddarthmally38-star)
+[![Email](https://img.shields.io/badge/Email-siddarthmally38@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:siddarthmally38@gmail.com)
 
 ---
 
-**Happy Portfolio Building!** 🚀
+## About
 
-For questions or support, create an issue or reach out!
+Cybersecurity GRC and Third-Party Risk Management professional with **4+ years** of experience conducting vendor risk assessments, security due diligence, inherent risk analysis, and remediation tracking across **financial services** and **healthcare** environments.
+
+| | |
+|---|---|
+| **Current role** | Cybersecurity Analyst — PNC (Nov 2025 – Present) |
+| **Previously** | Cybersecurity GRC / Third-Party Risk Analyst — Bausch + Lomb (Aug 2022 – Oct 2025) |
+| **Education** | MS Cybersecurity, Saint Peter's University · BS Information Science, NJIT |
+| **Location** | USA |
+
+**Frameworks:** NIST CSF · NIST SP 800-53 · ISO 27001 · ISO 27017 · HITRUST · SOC 1 / SOC 2 Type II · PCI DSS · HIPAA · GDPR · CCPA/CPRA
+
+**GRC tooling:** ServiceNow · One Trust · Zen GRC · SharePoint · Confluence
+
+---
+
+## Featured Projects
+
+| Project | Focus | Stack |
+|---|---|---|
+| [driftguard-llm](https://github.com/siddarthmally38-star/driftguard-llm) | LLM drift monitoring | Python, Docker |
+| [sentinel-triage](https://github.com/siddarthmally38-star/sentinel-triage) | Alert triage automation | Python, Docker |
+| [siem-dashboard](https://github.com/siddarthmally38-star/siem-dashboard) | SIEM visualisation | TypeScript, Python |
+| [threathound](https://github.com/siddarthmally38-star/threathound) | Threat hunting | Python |
+| [intrusion-detection-prevention-system](https://github.com/siddarthmally38-star/intrusion-detection-prevention-system) | IDS/IPS | Python |
+| [network-intrusion-detection-using-machine-learning](https://github.com/siddarthmally38-star/network-intrusion-detection-using-machine-learning) | Network IDS with ML | Jupyter |
+| [online-payments-fraud-detection-with-machine-learning](https://github.com/siddarthmally38-star/online-payments-fraud-detection-with-machine-learning) | Payment fraud ML | Jupyter, Python |
+| [realtime-fraud-detection](https://github.com/siddarthmally38-star/realtime-fraud-detection) | Streaming fraud detection | Python |
+| [email-phishing-detection](https://github.com/siddarthmally38-star/email-phishing-detection) | Phishing classification | Python |
+| [log-analysis-anomaly-detection](https://github.com/siddarthmally38-star/log-analysis-anomaly-detection) | Log anomaly detection | Python |
+
+---
+
+## Running Locally
+
+No build step and no dependencies — the site is vanilla HTML, CSS, and JavaScript.
+
+```bash
+python -m http.server 4173
+```
+
+Then open <http://localhost:4173>. A local server is required (rather than opening `index.html` directly) because content is loaded from JSON via `fetch`.
+
+## Editing Content
+
+All content lives in `data/` as JSON — no HTML editing needed for routine updates.
+
+| File | Controls |
+|---|---|
+| `data/profile.json` | Name, title, bio, contact details |
+| `data/hero.json` | Landing headline, summary, avatar, social links |
+| `data/about.json` | About paragraphs and headline statistics |
+| `data/experience.json` | Roles, dates, locations, responsibilities, company logos |
+| `data/education.json` | Degrees, institutions, campuses, certifications |
+| `data/skills.json` | Skill categories and entries |
+| `data/projects.json` | Project cards, cover art, repository links |
+| `data/contact.json` | Contact section and form fields |
+| `data/site-config.json` | Meta tags, branding, site-wide settings |
+
+See [CUSTOMIZATION.md](CUSTOMIZATION.md) for detailed field documentation.
+
+## Structure
+
+```
+├── index.html              # Page shell — sections filled in at runtime
+├── CNAME                   # Custom domain (siddarthmally.com)
+├── assets/
+│   ├── css/styles.css      # All styling; palette set via CSS variables
+│   ├── js/main.js          # Fetches JSON and renders every section
+│   └── img/
+│       ├── profile.jpg     # Hero avatar
+│       ├── logos/          # Company & institution logo fallbacks
+│       └── projects/       # Project cover art
+└── data/                   # All site content as JSON
+```
+
+### Images
+
+- **Company logos** — bundled SVG badges render first, then upgrade to the official logo once it loads and clears a minimum resolution. Nothing breaks offline or when a remote logo stalls.
+- **Project covers** — bundled SVGs themed per project, layered over the original Font Awesome icon so a failed image falls back rather than leaving a gap.
+
+## Deployment
+
+Hosted on GitHub Pages from `main`, served at [siddarthmally.com](https://siddarthmally.com) via the `CNAME` file with DNS pointed at GitHub's servers. Pushing to `main` triggers a rebuild automatically.
+
+## Colour Palette
+
+| Token | Value |
+|---|---|
+| Primary (teal) | `#154D57` |
+| Secondary (beige) | `#B7A08B` |
+| Accent | `#D4B896` |
+| Background (cream) | `#FEFAF7` |
+
+Defined as CSS variables at the top of `assets/css/styles.css`.
+
+---
+
+## Contact
+
+- **Email** — [siddarthmally38@gmail.com](mailto:siddarthmally38@gmail.com)
+- **Phone** — +1 (201) 772-4845
+- **LinkedIn** — [siddarth-mally](https://www.linkedin.com/in/siddarth-mally-451565242/)
+- **GitHub** — [siddarthmally38-star](https://github.com/siddarthmally38-star)
+- **Portfolio** — [siddarthmally.com](https://siddarthmally.com)
+
+## License
+
+Released under the [MIT License](LICENSE).

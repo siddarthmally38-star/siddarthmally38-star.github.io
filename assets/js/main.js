@@ -396,7 +396,10 @@ async function loadExperience() {
                                 <p class="timeline-company">${exp.company}</p>
                             </div>
                         </div>
-                        <span class="timeline-period">${exp.period}</span>
+                        <div class="timeline-meta">
+                            <span class="timeline-period">${exp.period}</span>
+                            ${exp.location ? `<span class="timeline-location"><i class="fas fa-location-dot"></i> ${exp.location}</span>` : ''}
+                        </div>
                     </div>
                     <div class="timeline-description">
                         <p>${exp.description}</p>
@@ -552,7 +555,10 @@ async function loadEducation() {
                             <p class="education-school">${edu.school}</p>
                         </div>
                     </div>
-                    <span class="education-period">${edu.period}</span>
+                    <div class="education-meta">
+                        <span class="education-period">${edu.period}</span>
+                        ${edu.location ? `<span class="education-location"><i class="fas fa-location-dot"></i> ${edu.location}</span>` : ''}
+                    </div>
                 </div>
                 ${edu.details ? `<p class="timeline-description">${edu.details}</p>` : ''}
             `;
